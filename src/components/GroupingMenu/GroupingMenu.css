@@ -1,0 +1,51 @@
+.display-menu {
+  position: relative;
+}
+.display-icon {
+  width: 16px;  /* Adjust size as needed */
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.display-button {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.popup-card {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popup-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.popup-item:last-child {
+  margin-bottom: 0;
+}
+
+.popup-item span {
+  margin-right: 10px;
+}
+
+.popup-item select {
+  padding: 3px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}

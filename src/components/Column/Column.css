@@ -1,0 +1,46 @@
+.column {
+  flex: 0 0 auto;
+  width: 300px;
+  margin: 0 10px;
+  background-color: #f4f5f8;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.column-title {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.column-count {
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.add-card-button,
+.more-options-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.column-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .column {
+    width: 250px;
+  }
+}
